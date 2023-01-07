@@ -1,0 +1,203 @@
+*{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+/*
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ align-content: center;
+ align-items: center;
+ */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+     /*alignment*/
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     align-content: center;
+     align-items: center;
+     /*alignment*/
+}
+
+
+/* =============== START OF HEADER ======================== */
+
+.header{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(40, 40, 40);
+
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-content: center;
+     align-items: center;
+}
+/*start of company contacts*/
+.company-contacts{
+ 
+    width: 21%;
+    height: 100%;
+
+    /*alignment*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    float: left;
+    margin-right: 47%;
+  
+   
+    /*alignment*/
+}
+.company-contacts .contact{
+    color: #ffffff;
+    
+    /*alignment*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    /*alignment*/
+
+    width: 49%;
+    height: 100%;
+  
+
+}
+.company-contacts .contact-icon{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #c0cf21;
+    align-items:flex-start;
+   
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    float: left;
+    margin-right: 1%;
+    
+}
+
+.company-contacts #phone-number{
+    margin-right: 22%;
+}
+
+.company-contacts #contact1{
+    padding-left: 1%;
+}
+
+/*end of company contacts*/
+
+
+
+/*start of search bar*/
+.search-bar{
+    height: 85%;
+    width: 20%;
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    float: right;
+}
+
+.search-bar input[type=text] {
+    border: none;
+    font-size: 17px;
+    height: 100%;
+    width: 80%;
+    
+}
+
+.search-bar input[type=text]:active {
+    border: none;
+    
+}
+
+.searchButton{
+    background-color: #c0cf21;
+    color: #ffffff;
+    border: none;
+    font-size: 1em;
+    width: 20%;
+    height: 100%;
+
+}
+
+/*end of search bar*/
+
+/*start of authentication buttons*/
+.authentications{
+    width: 12%;
+    height: 100%;
+
+    /*alignment*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    float: right;
+    /*alignment*/
+}
+.authentication{
+    color: #ffffff;
+    
+
+    /*alignment*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    /*alignment*/
+
+    width: 40%;
+    height: 100%;
+  
+
+}
+.authentication-icon{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #c0cf21;
+    align-items:flex-start;
+   
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    float: left;
+    margin-right: 1%;
+    
+}
+
+/*end of authentication buttons*/
+
+/* =============== END OF HEADER ======================== */
